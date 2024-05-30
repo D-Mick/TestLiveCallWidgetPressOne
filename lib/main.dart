@@ -47,6 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   runThis() async {
+    // Pass the API token
     await LiveCallWidget.setAPIKEY("pk_34XsEi033ocVbA5Zm0X9YnvlSaqDg");
   }
 
@@ -73,6 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){
+          // Show the Widget
           LiveCallWidget.showWidget(context);
         },
         tooltip: 'Increment',
