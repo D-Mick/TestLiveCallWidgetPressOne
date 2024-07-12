@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   runThis() async {
     // Pass the API token
-    await LiveCallWidget.setAPIKEY("pk_34XsEi033ocVbA5Zm0X9YnvlSaqDg");
+    await LiveCallWidget.setAPIKEY("pk_23HYE99JxrgHBl03cwEt5FHZkjjbs");
   }
 
   @override
@@ -63,7 +63,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'Testing live call widget, click on the fab icon',
+              style: TextStyle(color: Colors.black),
             ),
             Text(
               '$_counter',

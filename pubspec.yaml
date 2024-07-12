@@ -19,7 +19,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   live_call_widget_flutter:
     git:
-      url: https://gitlab.com/pressone-apps/Live-Call-Widget-Flutter
+      url: https://github.com/Pressone-Org/support-widget-flutter
 
 dev_dependencies:
   flutter_test:
